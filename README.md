@@ -7,7 +7,7 @@ PANIC имеет много функций, среди которых:
 - телефонные звонки для критических оповещений
 - панель пользовательского интерфейса
 
-![valoper](https://github.com/SimplyVC/panic/blob/master/docs/images/IMG_PANIC_DESIGN_10X.png)
+![valoper](https://raw.githubusercontent.com/SimplyVC/panic/master/docs/images/IMG_PANIC_DESIGN_10X.png)
 
 # Руководство по установке 
 
