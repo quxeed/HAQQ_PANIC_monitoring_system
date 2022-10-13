@@ -50,8 +50,8 @@ cd panic
 
 ```ini
 UI_ACCESS_IP=1.1.1.1
-INSTALLER_USERNAME=panic_user
-INSTALLER_PASSWORD=panic_password
+INSTALLER_USERNAME=username
+INSTALLER_PASSWORD=password
 ```
 
 ### Шаг 5. Запуск
