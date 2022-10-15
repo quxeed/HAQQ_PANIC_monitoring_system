@@ -98,7 +98,7 @@ docker-compose up -d --build
 
 Чтобы не терять большое количество блоков и убедиться, что бот работает корректно, мы возьмём изменим стандартные значения в настройках PANIC на свои
 
-![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_test_settings.png?token=GHSAT0AAAAAABV7U2JRCINEWEMYPHNWZXWAY2KZD7Q)
+![valoper](https://github.com/quxeed/PANIC_monitoring_system_HAQQ/blob/main/PANIC_test_settings.png)
 
 ### Можем приступать к тесту 😏
 
