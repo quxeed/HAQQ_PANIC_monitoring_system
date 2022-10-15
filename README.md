@@ -107,7 +107,7 @@ docker-compose up -d --build
 
 Мы сразу видим оповещение бота в Телеграмме, что PANIC потерял связь с валидатором
 
-![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/HAQQ_stop.png?token=GHSAT0AAAAAABV7U2JQLA5KX3TDSYWUW5BAY2KZMCA)
+![valoper](https://github.com/quxeed/PANIC_monitoring_system_HAQQ/blob/main/HAQQ_stop.png)
 
 В Телеграмм бот нам шлёт подобное оповещение (замазал ip)
 
