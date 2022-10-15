@@ -93,3 +93,34 @@ docker-compose up -d --build
 
 Настройка мониторинга узлов и каналов оповещения производится по адресу `https://{UI_ACCESS_IP}:8000`. Для авторизации используем `INSTALLER_USERNAME` и `INSTALLER_PASSWORD` которые мы указывали в файле `.env`. 
 После авторизации запускается мастер мониторинга.
+
+# Пример работы PANIC с ботом в Telegram
+
+Чтобы не терять большое количество блоков и убедиться, что бот работает корректно, мы возьмём изменим стандартные значения в настройках PANIC на свои
+
+![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_test_settings.png?token=GHSAT0AAAAAABV7U2JRCINEWEMYPHNWZXWAY2KZD7Q)
+
+### Можем приступать к тесту 😏
+
+Останавливаем ноду
+```sudo systemctl stop haqqd```
+
+Мы сразу видим оповещение бота в Телеграмме, что PANIC потерял связь с валидатором
+
+![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/HAQQ_stop.png?token=GHSAT0AAAAAABV7U2JQLA5KX3TDSYWUW5BAY2KZMCA)
+
+В Телеграмм бот нам шлёт подобное оповещение (замазал ip)
+
+![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_bot_1st_warn.png?token=GHSAT0AAAAAABV7U2JRZGPZDOJBATMSDPVWY2KZPEA)
+
+По истечении некоторого времени и пропуска блоков запускаем ноду ```sudo systemctl restart haqqd```
+
+На скриншоте мы видим, что было пропущено 13 блоков
+
+![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/HAQQ_end_test.png?token=GHSAT0AAAAAABV7U2JQNJ3OD7R3GQXUPYZEY2KZXBA)
+
+О чем нам собственно и говорит бот в Телеграмме
+
+![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_blocks_warn.png?token=GHSAT0AAAAAABV7U2JRAIZ2MCPCRIZZ6W46Y2KZZEQ)
+
+### Все работает !!! 😁
