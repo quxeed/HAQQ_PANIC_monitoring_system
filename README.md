@@ -111,16 +111,16 @@ docker-compose up -d --build
 
 В Телеграмм бот нам шлёт подобное оповещение (замазал ip)
 
-![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_bot_1st_warn.png?token=GHSAT0AAAAAABV7U2JRZGPZDOJBATMSDPVWY2KZPEA)
+![valoper](https://github.com/quxeed/PANIC_monitoring_system_HAQQ/blob/main/PANIC_bot_1st_warn.png)
 
 По истечении некоторого времени и пропуска блоков запускаем ноду ```sudo systemctl restart haqqd```
 
 На скриншоте мы видим, что было пропущено 13 блоков
 
-![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/HAQQ_end_test.png?token=GHSAT0AAAAAABV7U2JQNJ3OD7R3GQXUPYZEY2KZXBA)
+![valoper](https://github.com/quxeed/PANIC_monitoring_system_HAQQ/blob/main/HAQQ_end_test.png)
 
 О чем нам собственно и говорит бот в Телеграмме
 
-![valoper](https://raw.githubusercontent.com/quxeed/PANIC_monitoring_system_HAQQ/main/PANIC_blocks_warn.png?token=GHSAT0AAAAAABV7U2JRAIZ2MCPCRIZZ6W46Y2KZZEQ)
+![valoper](https://github.com/quxeed/PANIC_monitoring_system_HAQQ/blob/main/PANIC_blocks_warn.png)
 
 ### Все работает !!! 😁
